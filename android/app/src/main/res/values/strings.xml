@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">az-store</string>
+    <string name="facebook_app_name">az-store</string>
+    <string name="facebook_app_id">1111762320019848</string>
+    <string name="facebook_client_token">5a3bc587c4b413fcfbdaa9d8850b18bd</string>
+    <string name="fb_login_protocol_scheme">fb1111762320019848</string>
+</resources>

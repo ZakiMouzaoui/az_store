@@ -1,0 +1,106 @@
+name: az_store
+description: A full stack ecommerce application using flutter and firebase.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+#--------------- PACKAGES ------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #App Icon
+  flutter_launcher_icons: ^0.13.1
+
+  # Utility Packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.3.1
+  smooth_page_indicator: ^1.1.0
+  connectivity_wrapper: ^1.1.4
+  flutter_screenutil: ^5.9.0
+  double_back_to_close: ^2.0.0
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  intl_phone_field: ^3.2.0
+  hexcolor: ^3.0.1
+  flutter_dotenv: ^5.1.0
+  intl_phone_number_input: ^0.7.4
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+  # Animations
+  lottie: ^3.0.0
+  shimmer: ^3.0.0
+
+  # Popups
+  fluttertoast: ^8.2.4
+  bottom_sheet: ^4.0.0
+
+  # State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+  capped_progress_indicator: ^0.0.2
+
+  # firebase
+  firebase_core: ^2.25.3
+  firebase_auth: ^4.17.3
+  cloud_firestore: ^4.15.3
+  firebase_storage: ^11.6.4
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.0.4
+
+  # stripe
+  flutter_stripe: ^10.0.0
+  #--------------- ./ PACKAGES END ------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ------------------#
+  assets:
+    - assets/logos/
+    - assets/images/content/
+    - assets/images/reviews/
+    - assets/images/animations/
+    - assets/icons/payment_methods/
+    - assets/images/on_boarding_images/
+    - .env
+
+  #--------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
